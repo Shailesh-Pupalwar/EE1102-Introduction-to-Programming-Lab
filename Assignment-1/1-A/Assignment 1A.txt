@@ -1,0 +1,66 @@
+Assignment 1-A
+
+1st code :
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+
+    a = 5; 
+    b = 3;
+
+/*  printf(" Give a : \n");
+    scanf(" %d", &a);
+
+    printf(" Give b : \n");
+    scanf(" %d", &b); 
+
+     c = a; 
+     a = b;
+     b = c;
+
+*/
+
+    c = a + b - b;
+    a = b;
+    b = c;
+
+
+    printf(" a = %d  \n b = %d \n After swapping : \n a = %d \n b = %d ", a,b,b,a); 
+
+    return 0;
+
+}
+
+
+
+2nd code :
+
+#include<stdio.h>
+int main()
+{
+    int speed, distance, time;
+
+    speed = 5; 
+    time = 3;
+
+/*  printf(" Please mention the speed of the vehicle (kmph) :  \n");
+    scanf(" %d", &speed);
+
+    printf("Please mention the time duration of the journey (hrs): \n");
+    scanf(" %d", &b);   
+    
+*/
+
+    distance = speed * time;
+
+    printf(" In %dhrs, a vehicle travelling at %dkmph covers %dkm ", time, speed, distance); 
+
+    return 0;
+
+}
+
+
+
+

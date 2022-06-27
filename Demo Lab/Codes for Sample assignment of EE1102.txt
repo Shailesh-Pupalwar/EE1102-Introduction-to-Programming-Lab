@@ -1,0 +1,78 @@
+Sample assignment 
+
+4Th code : 
+
+#include<stdio.h>
+int main()
+{
+    int A,B,C;
+    int D;
+
+    D = A*A + B*B + C*C;
+
+   
+    printf(" Let the 1st no. be : \n");
+    scanf(" %d", &A);
+
+    printf(" Let the 2nd no. be : \n");
+    scanf(" %d", &B);
+
+    printf(" Let the  no. be : \n");
+    scanf(" %d", &C);
+    
+    printf(" A^2 + B^2 + C^2 = (%d)^2+ (%d)^2 + (%d)^2 = %d ", A,B,C,D);
+
+    return 0;
+}
+
+
+2nd code :
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    int f;
+
+    f = a+b+c+d+e ;
+
+   
+    printf(" Let the 1st no. be : \n");
+    scanf(" %d", &a);
+
+     printf(" Let the 1st no. be : \n");
+    scanf(" %d", &b);
+
+     printf(" Let the 1st no. be : \n");
+    scanf(" %d", &c);
+
+     printf(" Let the 1st no. be : \n");
+    scanf(" %d", &d);
+
+     printf(" Let the 1st no. be : \n");
+    scanf(" %d", &e);
+    
+    printf(" %d + %d + %d + %d + %d = %d", a,b,c,d,e,f);
+
+    return 0;
+}
+
+
+1st code :
+
+#include<stdio.h>
+int main()
+{
+      printf(" **This is my first program for the EE1102 lab** ")
+}
+
+
+3rd code :
+
+#include<stdio.h>
+int main()
+{
+    printf(" EE20B100 \n Shailesh Pupalwar ");
+
+    return 0;
+}
